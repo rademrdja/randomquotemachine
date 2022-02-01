@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $("#btn").on("click", function() {
       
-      var backgroundColor = `rgb($(Math. floor(Math. random() * 256)),$(Math. floor(Math. random() * 256)),$(Math. floor(Math. random() * 256)))`;
+      var backgroundColor = `rgb($(Math. floor(Math. random() * 190)),$(Math. floor(Math. random() * 190)),$(Math. floor(Math. random() * 190)))`;
       
       $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?", function(json) {
         
